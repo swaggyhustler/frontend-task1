@@ -4,7 +4,7 @@ import { useState } from "react";
 const Hero = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className="relative">
+        <div className="relative w-full">
             <img src={HeroPic} alt="Person" className="w-screen h-64 md:h-full" />
             <div className="absolute top-0 w-full h-full">
                 <div className="flex md:hidden p-4 justify-between items-center">

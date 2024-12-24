@@ -7,7 +7,7 @@ const Navbar = () => {
         setOpen(false);
     }
     return (
-        <div className="w-screen mt-4 flex justify-center">
+        <div className="w-full mt-4 flex justify-center items-center">
             <div className="w-[100%] md:w-[80%]">
                 <div className="flex md:hidden justify-between items-center mx-4">
                     <p className="font-bold">Posts(123)</p>

@@ -1,7 +1,7 @@
 import Logo from "../components/Logo";
 const Header = () =>{
     return (
-        <div className="hidden w-screen md:flex justify-around items-center p-4">
+        <div className="hidden w-full md:flex justify-around items-center p-4">
             <Logo />
             <div className="min-w-[50%] bg-slate-100 p-2 rounded-full">
                 <p className="text-center">Search for your favorite groups in ATG</p>
